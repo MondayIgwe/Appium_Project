@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2"
+          name="C:/Users/MIgwe/Documents/MyStuffs/My_Intellj_Projects/Appium_Project/src/test/java/android">
+        <classes>
+            <class name="android.hybrid_apps.apiDemos.App_Test"/>
+<!--            <class name="android.hybrid_apps.apiDemos.ClipBoard_Test"/>-->
+<!--            <class name="android.hybrid_apps.apiDemos.Drag_Drop_Test"/>-->
+<!--            <class name="android.hybrid_apps.apiDemos.Gallery_Test"/>-->
+<!--            <class name="android.hybrid_apps.seredroid.Serendroid_App_Test"/>-->
+<!--            <class name="android.hybrid_apps.apiDemos.View_Test"/>-->
+<!--            <class name="android.hybrid_apps.to_dolist_tests.All_List_Test"/>-->
+<!--            <class name="android.native_app.Photo_Test"/>-->
+<!--            <class name="android.native_app.SMS_Test"/>-->
+<!--            <class name="android.web_app.Mobile_Web_Test"/>-->
+        </classes>
+    </test>
+</suite>

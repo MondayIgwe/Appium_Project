@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/MIgwe/Documents/MyStuffs/My_Intellj_Projects/Appium_Project/src/test/java/ios">
+        <classes>
+            <class name="ios.hybrid_app.Ios_Safari_Real_Device_Test">
+                <methods>
+                    <include name="run_real_device"/>
+                </methods>
+            </class>
+            <class name="ios.web_app.Mobile_Web_Test">
+                <methods>
+                    <include name="mobile_web"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

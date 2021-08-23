@@ -1,0 +1,52 @@
+
+================== TOOLS ===============================
+Page Object Model - Design Pattern
+... TestNG
+... Maven
+... Data driven
+... Cucumber with Gherkin - feature files
+
+=========================================================
+C:\Users\MIgwe\AppData\Local\Android\sdk
+
+
+{
+  "automationName": "UiAutomator2",
+  "deviceName": "Android Emulator",
+  "platformName": "Android",
+  "autoGrantPermissions": true,
+  "app": "C:/apks/selendroid-test-app-0.17.0.apk"
+}
+
+{
+  "automationName": "UiAutomator2",
+  "deviceName": "Android Emulator",
+  "platformName": "Android",
+  "appPackage": "com.splendapps.splendo",
+  "appActivity": ".MainActivity"
+}
+
+{
+"automationName": "UiAutomator2",
+"deviceName": "Android Emulator",
+"platformName": "Android",
+"platformVersion": "6.0",
+"appPackage": "com.android.messaging",
+"appActivity": ".ui.conversationlist.ConversationListActivity"
+}
+
+Run adb shell
+dumpsys window windows | grep -E ‘mCurrentFocus’
+
+dumpsys window windows | grep -E ‘mFocusedApp'
+
+
+
+appium --chromedriver-executable /path/to/my/chromedriver
+
+
+PageBase -> pageObjectPages(extends the PageBase) -> TestBase ->
+ - > Test Execution class (call the relevant page) ->
+
+Note: The Pages extends PageBase
+      The test execution extends TestBase
