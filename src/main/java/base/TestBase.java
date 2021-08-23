@@ -6,13 +6,14 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class TestBase {
+public class TestBase extends AbstractTestNGCucumberTests {
 
     public AppiumDriver<MobileElement> driver;
     private String appPackage;

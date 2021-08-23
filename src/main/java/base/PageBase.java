@@ -3,8 +3,6 @@ package base;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -38,18 +36,7 @@ public class PageBase {
         try {
             WebDriverWait wait = new WebDriverWait(driver, WAIT);
             wait.until(ExpectedConditions.visibilityOf(element));
-        } catch (WebDriverException webDriverError) {
-
-            System.out.println(webDriverError.getMessage());
-        }
-    }
-
-    public void clear(MobileElement element) {
-
-        try {
-            waitForVisibility(element);
-            element.clear();
-        } catch (WebDriverException webDriverError) {
+        } catch (Exception webDriverError) {
 
             System.out.println(webDriverError.getMessage());
         }
@@ -59,7 +46,7 @@ public class PageBase {
         try {
             waitForVisibility(element);
             element.click();
-        } catch (WebDriverException webDriverError) {
+        } catch (Exception webDriverError) {
 
             System.out.println(webDriverError.getMessage());
         }
@@ -69,7 +56,7 @@ public class PageBase {
         try {
             waitForVisibility(element);
             element.clear();
-        } catch (WebDriverException webDriverError) {
+        } catch (Exception webDriverError) {
 
             System.out.println(webDriverError.getMessage());
         }
@@ -79,7 +66,7 @@ public class PageBase {
         try {
             waitForVisibility(element);
             element.sendKeys(text);
-        } catch (WebDriverException webDriverError) {
+        } catch (Exception webDriverError) {
 
             System.out.println(webDriverError.getMessage());
         }
@@ -89,7 +76,7 @@ public class PageBase {
         try {
             waitForVisibility(element);
             return element.getAttribute(attribute);
-        } catch (WebDriverException webDriverException) {
+        } catch (Exception webDriverException) {
             System.out.println(webDriverException.getMessage());
         }
 
@@ -113,8 +100,8 @@ public class PageBase {
         try {
             waitForVisibility(element);
             return element.getText();
-        } catch (WebDriverException webDriverException) {
-            System.out.println(webDriverException.getAdditionalInformation());
+        } catch (Exception webDriverException) {
+            System.out.println(webDriverException.getMessage());
         }
         return null;
     }
