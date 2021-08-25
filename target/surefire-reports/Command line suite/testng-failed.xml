@@ -1,8 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Command line suite]">
-  <test thread-count="5" verbose="0" name="Command line test(failed)">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
     <classes>
+      <class name="android.hybrid_apps.seredroid.Serendroid_App_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="run_seredroid"/>
+        </methods>
+      </class> <!-- android.hybrid_apps.seredroid.Serendroid_App_Test -->
+      <class name="android.hybrid_apps.apiDemos.ClipBoard_Test">
+        <methods>
+          <include name="clipboard_Test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- android.hybrid_apps.apiDemos.ClipBoard_Test -->
+      <class name="android.web_app.Mobile_Web_Test">
+        <methods>
+          <include name="mobile_web"/>
+        </methods>
+      </class> <!-- android.web_app.Mobile_Web_Test -->
+      <class name="android.hybrid_apps.to_dolist_tests.All_List_Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="to_do"/>
+          <include name="setUp"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- android.hybrid_apps.to_dolist_tests.All_List_Test -->
+      <class name="android.hybrid_apps.apiDemos.App_Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUp"/>
+          <include name="appTest"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- android.hybrid_apps.apiDemos.App_Test -->
+      <class name="android.hybrid_apps.apiDemos.Drag_Drop_Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="drag_DropTest"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- android.hybrid_apps.apiDemos.Drag_Drop_Test -->
+      <class name="ios.hybrid_app.Ios_Safari_Real_Device_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="run_real_device"/>
+        </methods>
+      </class> <!-- ios.hybrid_app.Ios_Safari_Real_Device_Test -->
       <class name="android.hybrid_apps.apiDemos.View_Test">
         <methods>
           <include name="setUpClass"/>
@@ -10,43 +56,33 @@
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- android.hybrid_apps.apiDemos.View_Test -->
-      <class name="ios.hybrid_app.Ios_Safari_Real_Device_Test">
-        <methods>
-          <include name="tearDown"/>
-          <include name="run_real_device"/>
-        </methods>
-      </class> <!-- ios.hybrid_app.Ios_Safari_Real_Device_Test -->
       <class name="ios.web_app.Mobile_Web_Test">
         <methods>
           <include name="mobile_web"/>
         </methods>
       </class> <!-- ios.web_app.Mobile_Web_Test -->
-      <class name="android.hybrid_apps.apiDemos.App_Test">
+      <class name="android.hybrid_apps.apiDemos.Gallery_Test">
         <methods>
           <include name="setUpClass"/>
-          <include name="setUp"/>
-          <include name="appTest"/>
           <include name="tearDownClass"/>
-          <include name="testNG_Test"/>
+          <include name="drag_DropTest"/>
         </methods>
-      </class> <!-- android.hybrid_apps.apiDemos.App_Test -->
-      <class name="android.hybrid_apps.seredroid.Serendroid_App_Test">
+      </class> <!-- android.hybrid_apps.apiDemos.Gallery_Test -->
+      <class name="android.native_app.SMS_Test">
         <methods>
-          <include name="setUp"/>
-          <include name="run_seredroid"/>
+          <include name="setUpClass"/>
+          <include name="sms_"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- android.hybrid_apps.seredroid.Serendroid_App_Test -->
-      <class name="android.web_app.Mobile_Web_Test">
+      </class> <!-- android.native_app.SMS_Test -->
+      <class name="android.native_app.Photo_Test">
         <methods>
-          <include name="mobile_web"/>
-        </methods>
-      </class> <!-- android.web_app.Mobile_Web_Test -->
-      <class name="android.hybrid_apps.apiDemos.ClipBoard_Test">
-        <methods>
-          <include name="clipboard_Test"/>
+          <include name="setUpClass"/>
+          <include name="photo_"/>
+          <include name="tearDownClass"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- android.hybrid_apps.apiDemos.ClipBoard_Test -->
+      </class> <!-- android.native_app.Photo_Test -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
