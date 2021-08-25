@@ -6,7 +6,6 @@ base\Supports.class
 utils\JsonReader.class
 base\PageBase.class
 base\helper_encaps.class
-pageObjectsModel\to_Do_list_Pages\All_List.class
 pageObjectsModel\api_Demos_Pages\AppPage.class
 base\CommonLibs.class
 pageObjectsModel\api_Demos_Pages\Drag_Drop.class

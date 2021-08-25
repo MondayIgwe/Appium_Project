@@ -10,5 +10,4 @@ testRunner\Runner.class
 android\hybrid_apps\apiDemos\Gallery_Test.class
 android\hybrid_apps\seredroid\Serendroid_App_Test.class
 ios\web_app\Mobile_Web_Test.class
-android\hybrid_apps\to_dolist_tests\All_List_Test.class
 android\hybrid_apps\apiDemos\App_Test.class

@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="0" failed="0" skipped="12">
+<testng-results skipped="11" failed="0" ignored="0" total="11" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-25T22:31:21 CAT" name="Command line suite" finished-at="2021-08-25T22:31:27 CAT" duration-ms="5800">
+  <suite name="Command line suite" duration-ms="16195" started-at="2021-08-25T22:41:36 CAT" finished-at="2021-08-25T22:41:52 CAT">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@385e9564]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.apiDemos.Drag_Drop_Test@26b3fd41]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.apiDemos.Gallery_Test@7494f96a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.apiDemos.View_Test@1757cd72]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.to_dolist_tests.All_List_Test@68567e20]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.native_app.Photo_Test@76ed1b7c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.native_app.SMS_Test@11fc564b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@670b40af]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.apiDemos.Drag_Drop_Test@371a67ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.apiDemos.Gallery_Test@5ed828d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.apiDemos.View_Test@7a3d45bd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.native_app.Photo_Test@4e718207]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.native_app.SMS_Test@1d371b2d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-08-25T22:31:21 CAT" name="Command line test" finished-at="2021-08-25T22:31:27 CAT" duration-ms="5800">
+    <test name="Command line test" duration-ms="16195" started-at="2021-08-25T22:41:36 CAT" finished-at="2021-08-25T22:41:52 CAT">
       <class name="android.hybrid_apps.apiDemos.Gallery_Test">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.Gallery_Test@7494f96a]" started-at="2021-08-25T22:31:27 CAT" name="setUpClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="10" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.Gallery_Test@5ed828d]" name="setUpClass" is-config="true" duration-ms="7" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="drag_DropTest()[pri:0, instance:android.hybrid_apps.apiDemos.Gallery_Test@7494f96a]" started-at="2021-08-25T22:31:27 CAT" name="drag_DropTest" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.Gallery_Test@5ed828d]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="SKIP" signature="drag_DropTest()[pri:0, instance:android.hybrid_apps.apiDemos.Gallery_Test@5ed828d]" name="drag_DropTest" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -48,11 +51,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -74,23 +77,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -113,10 +117,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -127,31 +131,27 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drag_DropTest -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.Gallery_Test@7494f96a]" started-at="2021-08-25T22:31:27 CAT" name="tearDownClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
       </class> <!-- android.hybrid_apps.apiDemos.Gallery_Test -->
       <class name="android.hybrid_apps.seredroid.Serendroid_App_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:android.hybrid_apps.seredroid.Serendroid_App_Test@17a7f733]" started-at="2021-08-25T22:31:26 CAT" name="setUp" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1629923486543" status="SKIP">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:android.hybrid_apps.seredroid.Serendroid_App_Test@32eebfca]" name="setUp" is-config="true" duration-ms="-1629924112724" started-at="2021-08-25T22:41:52 CAT" finished-at="1970-01-01T02:00:00 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="run_seredroid()[pri:0, instance:android.hybrid_apps.seredroid.Serendroid_App_Test@17a7f733]" started-at="2021-08-25T22:31:27 CAT" name="run_seredroid" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="run_seredroid()[pri:0, instance:android.hybrid_apps.seredroid.Serendroid_App_Test@32eebfca]" name="run_seredroid" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -165,11 +165,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -191,23 +191,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -230,10 +231,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -246,21 +247,21 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
         </test-method> <!-- run_seredroid -->
       </class> <!-- android.hybrid_apps.seredroid.Serendroid_App_Test -->
       <class name="android.web_app.Mobile_Web_Test">
-        <test-method signature="mobile_web()[pri:0, instance:android.web_app.Mobile_Web_Test@394a2528]" started-at="2021-08-25T22:31:27 CAT" name="mobile_web" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="mobile_web()[pri:0, instance:android.web_app.Mobile_Web_Test@543c6f6d]" name="mobile_web" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -274,11 +275,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -300,23 +301,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -339,10 +341,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -355,25 +357,29 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
         </test-method> <!-- mobile_web -->
       </class> <!-- android.web_app.Mobile_Web_Test -->
       <class name="android.hybrid_apps.apiDemos.View_Test">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.View_Test@1757cd72]" started-at="2021-08-25T22:31:27 CAT" name="setUpClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="15" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.View_Test@7a3d45bd]" name="setUpClass" is-config="true" duration-ms="6" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="viewTest()[pri:0, instance:android.hybrid_apps.apiDemos.View_Test@1757cd72]" started-at="2021-08-25T22:31:27 CAT" name="viewTest" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.View_Test@7a3d45bd]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="SKIP" signature="viewTest()[pri:0, instance:android.hybrid_apps.apiDemos.View_Test@7a3d45bd]" name="viewTest" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -387,11 +393,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -413,23 +419,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -452,10 +459,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -466,31 +473,23 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewTest -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.View_Test@1757cd72]" started-at="2021-08-25T22:31:27 CAT" name="tearDownClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
       </class> <!-- android.hybrid_apps.apiDemos.View_Test -->
-      <class name="android.hybrid_apps.apiDemos.Drag_Drop_Test">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.Drag_Drop_Test@26b3fd41]" started-at="2021-08-25T22:31:27 CAT" name="setUpClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="drag_DropTest()[pri:0, instance:android.hybrid_apps.apiDemos.Drag_Drop_Test@26b3fd41]" started-at="2021-08-25T22:31:27 CAT" name="drag_DropTest" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+      <class name="android.hybrid_apps.apiDemos.App_Test">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@670b40af]" name="setUp" is-config="true" duration-ms="15983" started-at="2021-08-25T22:41:36 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -504,11 +503,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -530,23 +529,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -569,10 +569,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -582,36 +582,26 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- drag_DropTest -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.Drag_Drop_Test@26b3fd41]" started-at="2021-08-25T22:31:27 CAT" name="tearDownClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- android.hybrid_apps.apiDemos.Drag_Drop_Test -->
-      <class name="android.hybrid_apps.apiDemos.App_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@385e9564]" started-at="2021-08-25T22:31:26 CAT" name="setUp" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1629923486536" status="SKIP">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@385e9564]" started-at="2021-08-25T22:31:26 CAT" name="setUpClass" finished-at="2021-08-25T22:31:26 CAT" duration-ms="372" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@670b40af]" name="setUpClass" is-config="true" duration-ms="115" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="appTest()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@385e9564]" started-at="2021-08-25T22:31:26 CAT" name="appTest" finished-at="2021-08-25T22:31:26 CAT" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="appTest()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@670b40af]" name="appTest" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -625,11 +615,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -651,23 +641,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -690,10 +681,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -704,35 +695,35 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appTest -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@385e9564]" started-at="2021-08-25T22:31:26 CAT" name="tearDownClass" finished-at="2021-08-25T22:31:26 CAT" duration-ms="21" status="PASS">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@670b40af]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- android.hybrid_apps.apiDemos.App_Test -->
-      <class name="android.native_app.Photo_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:android.native_app.Photo_Test@76ed1b7c]" started-at="2021-08-25T22:31:26 CAT" name="setUp" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1629923486542" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:android.native_app.Photo_Test@76ed1b7c]" started-at="2021-08-25T22:31:27 CAT" name="setUpClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="10" status="PASS">
+      <class name="android.hybrid_apps.apiDemos.Drag_Drop_Test">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.Drag_Drop_Test@371a67ec]" name="setUpClass" is-config="true" duration-ms="8" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="photo_()[pri:0, instance:android.native_app.Photo_Test@76ed1b7c]" started-at="2021-08-25T22:31:27 CAT" name="photo_" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.Drag_Drop_Test@371a67ec]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="SKIP" signature="drag_DropTest()[pri:0, instance:android.hybrid_apps.apiDemos.Drag_Drop_Test@371a67ec]" name="drag_DropTest" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -746,11 +737,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -772,23 +763,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -811,10 +803,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -824,36 +816,28 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- photo_ -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:android.native_app.Photo_Test@76ed1b7c]" started-at="2021-08-25T22:31:27 CAT" name="tearDownClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- android.native_app.Photo_Test -->
+        </test-method> <!-- drag_DropTest -->
+      </class> <!-- android.hybrid_apps.apiDemos.Drag_Drop_Test -->
       <class name="android.native_app.SMS_Test">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:android.native_app.SMS_Test@11fc564b]" started-at="2021-08-25T22:31:27 CAT" name="setUpClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="9" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:android.native_app.SMS_Test@1d371b2d]" name="setUpClass" is-config="true" duration-ms="8" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:android.native_app.SMS_Test@11fc564b]" started-at="2021-08-25T22:31:27 CAT" name="tearDownClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method signature="sms_()[pri:0, instance:android.native_app.SMS_Test@11fc564b]" started-at="2021-08-25T22:31:27 CAT" name="sms_" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="sms_()[pri:0, instance:android.native_app.SMS_Test@1d371b2d]" name="sms_" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -867,11 +851,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -893,23 +877,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -932,10 +917,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -946,23 +931,39 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sms_ -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:android.native_app.SMS_Test@1d371b2d]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
       </class> <!-- android.native_app.SMS_Test -->
-      <class name="ios.web_app.Mobile_Web_Test">
-        <test-method signature="mobile_web()[pri:0, instance:ios.web_app.Mobile_Web_Test@7c1e2a9e]" started-at="2021-08-25T22:31:27 CAT" name="mobile_web" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+      <class name="android.native_app.Photo_Test">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:android.native_app.Photo_Test@4e718207]" name="setUp" is-config="true" duration-ms="-1629924112723" started-at="2021-08-25T22:41:52 CAT" finished-at="1970-01-01T02:00:00 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:android.native_app.Photo_Test@4e718207]" name="setUpClass" is-config="true" duration-ms="7" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:android.native_app.Photo_Test@4e718207]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="SKIP" signature="photo_()[pri:0, instance:android.native_app.Photo_Test@4e718207]" name="photo_" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -976,11 +977,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -1002,23 +1003,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -1041,10 +1043,120 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- photo_ -->
+      </class> <!-- android.native_app.Photo_Test -->
+      <class name="ios.web_app.Mobile_Web_Test">
+        <test-method status="SKIP" signature="mobile_web()[pri:0, instance:ios.web_app.Mobile_Web_Test@51c8530f]" name="mobile_web" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Connection refused: connect
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
+at java.util.Optional.orElseGet(Optional.java:267)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:338)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
+at base.TestBase.platform(TestBase.java:71)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.net.ConnectException: Connection refused: connect
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -1057,21 +1169,21 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
         </test-method> <!-- mobile_web -->
       </class> <!-- ios.web_app.Mobile_Web_Test -->
       <class name="ios.hybrid_app.Ios_Safari_Real_Device_Test">
-        <test-method signature="run_real_device()[pri:0, instance:ios.hybrid_app.Ios_Safari_Real_Device_Test@6236eb5f]" started-at="2021-08-25T22:31:27 CAT" name="run_real_device" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="run_real_device()[pri:0, instance:ios.hybrid_app.Ios_Safari_Real_Device_Test@13eb8acf]" name="run_real_device" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -1085,11 +1197,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -1111,23 +1223,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -1150,10 +1263,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -1164,31 +1277,31 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run_real_device -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ios.hybrid_app.Ios_Safari_Real_Device_Test@6236eb5f]" started-at="2021-08-25T22:31:27 CAT" name="tearDown" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1629923487098" status="SKIP">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:ios.hybrid_app.Ios_Safari_Real_Device_Test@13eb8acf]" name="tearDown" is-config="true" duration-ms="-1629924112927" started-at="2021-08-25T22:41:52 CAT" finished-at="1970-01-01T02:00:00 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ios.hybrid_app.Ios_Safari_Real_Device_Test -->
       <class name="android.hybrid_apps.apiDemos.ClipBoard_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:android.hybrid_apps.apiDemos.ClipBoard_Test@192c3f1e]" started-at="2021-08-25T22:31:26 CAT" name="setUp" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1629923486537" status="SKIP">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:android.hybrid_apps.apiDemos.ClipBoard_Test@262b2c86]" name="setUp" is-config="true" duration-ms="-1629924112723" started-at="2021-08-25T22:41:52 CAT" finished-at="1970-01-01T02:00:00 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clipboard_Test()[pri:0, instance:android.hybrid_apps.apiDemos.ClipBoard_Test@192c3f1e]" started-at="2021-08-25T22:31:27 CAT" name="clipboard_Test" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="clipboard_Test()[pri:0, instance:android.hybrid_apps.apiDemos.ClipBoard_Test@262b2c86]" name="clipboard_Test" duration-ms="0" started-at="2021-08-25T22:41:52 CAT" finished-at="2021-08-25T22:41:52 CAT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
+at java.util.Optional.orElseGet(Optional.java:267)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
@@ -1202,11 +1315,11 @@ at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
 at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at android.hybrid_apps.apiDemos.App_Test.setUp(App_Test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -1228,23 +1341,24 @@ at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
 at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+at java.net.Socket.connect(Socket.java:606)
 at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
@@ -1267,10 +1381,10 @@ at okhttp3.RealCall.execute(RealCall.java:77)
 at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -1282,230 +1396,6 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
           </reporter-output>
         </test-method> <!-- clipboard_Test -->
       </class> <!-- android.hybrid_apps.apiDemos.ClipBoard_Test -->
-      <class name="android.hybrid_apps.to_dolist_tests.All_List_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:android.hybrid_apps.to_dolist_tests.All_List_Test@68567e20]" started-at="2021-08-25T22:31:21 CAT" name="setUp" finished-at="2021-08-25T22:31:26 CAT" duration-ms="5215" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: driver.version: AndroidDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: driver.version: AndroidDriver
-at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:338)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
-at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
-at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-at okhttp3.RealCall.execute(RealCall.java:77)
-at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-... 47 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:android.hybrid_apps.to_dolist_tests.All_List_Test@68567e20]" started-at="2021-08-25T22:31:27 CAT" name="setUpClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.to_dolist_tests.All_List_Test@68567e20]" started-at="2021-08-25T22:31:27 CAT" name="tearDownClass" finished-at="2021-08-25T22:31:27 CAT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method signature="to_do()[pri:0, instance:android.hybrid_apps.to_dolist_tests.All_List_Test@68567e20]" started-at="2021-08-25T22:31:27 CAT" name="to_do" finished-at="2021-08-25T22:31:27 CAT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: driver.version: AndroidDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ITL2L0F273', ip: '192.168.1.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: driver.version: AndroidDriver
-at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-at java.base/java.util.Optional.orElseGet(Optional.java:369)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:338)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:96)
-at base.TestBase.platform(TestBase.java:71)
-at android.hybrid_apps.to_dolist_tests.All_List_Test.setUp(All_List_Test.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.net.ConnectException: Connection refused: connect
-at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
-at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-at okhttp3.RealCall.execute(RealCall.java:77)
-at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
-at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-... 47 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- to_do -->
-      </class> <!-- android.hybrid_apps.to_dolist_tests.All_List_Test -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>
