@@ -1,75 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="19553" started-at="2021-08-25T21:00:54 CAT" finished-at="2021-08-25T21:01:14 CAT">
+  <suite name="All Test Suite" duration-ms="20689" started-at="2021-08-25T22:17:42 CAT" finished-at="2021-08-25T22:18:03 CAT">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="C:/Users/MIgwe/Documents/MyStuffs/My_Intellj_Projects/Appium_Project/src/test/java/android" duration-ms="19553" started-at="2021-08-25T21:00:54 CAT" finished-at="2021-08-25T21:01:14 CAT">
+    <test name="C:/Users/MIgwe/Documents/MyStuffs/My_Intellj_Projects/Appium_Project/src/test/java/android" duration-ms="20689" started-at="2021-08-25T22:17:42 CAT" finished-at="2021-08-25T22:18:03 CAT">
       <class name="android.hybrid_apps.apiDemos.App_Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="setUp" is-config="true" duration-ms="14646" started-at="2021-08-25T21:00:54 CAT" finished-at="2021-08-25T21:01:09 CAT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="setUp" is-config="true" duration-ms="15519" started-at="2021-08-25T22:17:42 CAT" finished-at="2021-08-25T22:17:57 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="setUpClass" is-config="true" duration-ms="250" started-at="2021-08-25T21:01:09 CAT" finished-at="2021-08-25T21:01:09 CAT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="setUpClass" is-config="true" duration-ms="287" started-at="2021-08-25T22:17:57 CAT" finished-at="2021-08-25T22:17:58 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="appTest()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="appTest" duration-ms="4557" started-at="2021-08-25T21:01:09 CAT" finished-at="2021-08-25T21:01:14 CAT">
+        <test-method status="PASS" signature="appTest()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="appTest" duration-ms="4759" started-at="2021-08-25T22:17:58 CAT" finished-at="2021-08-25T22:18:03 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appTest -->
-        <test-method status="FAIL" signature="testNG_Test(java.lang.String,java.lang.String)[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="testNG_Test" duration-ms="0" started-at="2021-08-25T21:01:14 CAT" data-provider="someData" finished-at="2021-08-25T21:01:14 CAT">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Some DataProvider public java.lang.Object[][] android.hybrid_apps.apiDemos.App_Test.passData(java.lang.Object) throws java.io.IOException,org.json.simple.parser.ParseException parameters unresolved:  at 0 type class java.lang.Object
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Some DataProvider public java.lang.Object[][] android.hybrid_apps.apiDemos.App_Test.passData(java.lang.Object) throws java.io.IOException,org.json.simple.parser.ParseException parameters unresolved:  at 0 type class java.lang.Object
-
-at org.testng.internal.MethodInvocationHelper.getParameters(MethodInvocationHelper.java:220)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNG_Test -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2021-08-25T21:01:14 CAT" finished-at="2021-08-25T21:01:14 CAT">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:android.hybrid_apps.apiDemos.App_Test@7a3d45bd]" name="tearDownClass" is-config="true" duration-ms="14" started-at="2021-08-25T22:18:03 CAT" finished-at="2021-08-25T22:18:03 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -7,8 +7,8 @@
         <methods>
           <include name="setUpClass"/>
           <include name="setUp"/>
+          <include name="appTest"/>
           <include name="tearDownClass"/>
-          <include name="testNG_Test"/>
         </methods>
       </class> <!-- android.hybrid_apps.apiDemos.App_Test -->
     </classes>
