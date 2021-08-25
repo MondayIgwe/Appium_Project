@@ -22,11 +22,11 @@ public class App_Test extends TestBase {
         platform(Supports.ANDROID_HYBRID_APP);
     }
 
-    @Test(dataProvider = "someData")
-    public void testNG_Test(String Json_Data, String Json_Attribute) {
-        System.out.println(Json_Data +"/n"+ Json_Attribute);
-
-    }
+//    @Test(dataProvider = "someData")
+//    public void testNG_Test(String Json_Data, String Json_Attribute) {
+//        System.out.println(Json_Data +"/n"+ Json_Attribute);
+//
+//    }
 
     @Test
     public void appTest() {
