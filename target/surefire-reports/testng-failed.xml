@@ -3,14 +3,6 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="android.native_app.Photo_Test">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="photo_"/>
-          <include name="tearDownClass"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- android.native_app.Photo_Test -->
       <class name="android.hybrid_apps.apiDemos.View_Test">
         <methods>
           <include name="setUpClass"/>
@@ -23,13 +15,6 @@
           <include name="mobile_web"/>
         </methods>
       </class> <!-- ios.web_app.Mobile_Web_Test -->
-      <class name="android.hybrid_apps.apiDemos.Drag_Drop_Test">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="drag_DropTest"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- android.hybrid_apps.apiDemos.Drag_Drop_Test -->
       <class name="android.hybrid_apps.apiDemos.App_Test">
         <methods>
           <include name="setUpClass"/>
@@ -63,13 +48,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- android.hybrid_apps.apiDemos.ClipBoard_Test -->
-      <class name="android.hybrid_apps.apiDemos.Gallery_Test">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="drag_DropTest"/>
-        </methods>
-      </class> <!-- android.hybrid_apps.apiDemos.Gallery_Test -->
       <class name="android.web_app.Mobile_Web_Test">
         <methods>
           <include name="mobile_web"/>
