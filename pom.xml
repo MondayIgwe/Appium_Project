@@ -9,19 +9,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <maven.surefire.plugin.version>2.22.1</maven.surefire.plugin.version>
     </properties>
-
-    <!--    &lt;!&ndash;-->
-    <!--    Plug-in, also called add-on or extension, -->
-    <!--    computer software that adds new functions to a host program without altering the host program -->
-    <!--    itself. Widely used in digital audio, video, and Web browsing, -->
-    <!--    -->
-    <!--   plug-ins enable programmers to update a host program while keeping the user within -->
-    <!--   the program's environment.-->
-    <!--  &ndash;&gt; -->
 
     <profiles>
         <profile>
@@ -51,7 +42,7 @@
                         <version>${maven.surefire.plugin.version}</version>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>android_testng.xml</suiteXmlFile>
+                                <suiteXmlFile>ios_testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
@@ -86,56 +77,44 @@
             <version>7.4.0</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-core</artifactId>
-            <version>6.9.1</version>
+            <version>6.11.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
         <dependency>
             <groupId>io.cucumber</groupId>
-            <artifactId>gherkin</artifactId>
-            <version>17.0.2</version>
+            <artifactId>cucumber-gherkin</artifactId>
+            <version>6.11.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
-            <version>6.9.1</version>
+            <version>6.11.0</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>6.9.1</version>
+            <version>6.11.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>3.9.1</version>
-        </dependency>
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-firefox-driver</artifactId>
-            <version>3.9.1</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
             <version>3.141.59</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

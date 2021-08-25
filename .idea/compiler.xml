@@ -9,5 +9,8 @@
         <module name="Appium_Project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Karate_API" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
