@@ -1,0 +1,14 @@
+android\hybrid_apps\apiDemos\ClipBoard_Test.class
+android\web_app\Mobile_Web_Test.class
+android\hybrid_apps\apiDemos\View_Test.class
+android\native_app\SMS_Test.class
+android\hybrid_apps\apiDemos\Drag_Drop_Test.class
+ios\hybrid_app\Ios_Safari_Real_Device_Test.class
+steps\App_Steps.class
+android\native_app\Photo_Test.class
+testRunner\Runner.class
+android\hybrid_apps\apiDemos\Gallery_Test.class
+android\hybrid_apps\seredroid\Serendroid_App_Test.class
+ios\web_app\Mobile_Web_Test.class
+android\hybrid_apps\to_dolist_tests\All_List_Test.class
+android\hybrid_apps\apiDemos\App_Test.class
